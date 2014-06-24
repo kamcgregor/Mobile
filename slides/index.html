@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html> 
 <!--
-  Copyright 2011 Ladies Learning Code.
+  Copyright 2014 Ladies Learning Code.
  
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@
   <head> 
     <meta charset="utf-8" /> 
     <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" /> 
-    <title>Mobile Web Workshop - Ladies Learning Code - May 18, 2013</title> 
+    <title>Introduction to HTML5 and Responsive Design - Ladies Learning Code - June 28, 2014</title> 
    	<link href='http://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Podkova' rel='stylesheet' type='text/css'> 
     <link id="prettify-link" href="src/prettify/prettify.css" rel="stylesheet" disabled /> 
@@ -81,7 +81,8 @@
             Building for Mobile Web<br />
             HTML/CSS for Mobile Web<br />
             Key CSS Features for Mobile</p>
-            <h2>Lunch!</h2>
+            <h2>Lunch!</h2><br />
+            <h2>The Afternoon</h2>
             <p>Images and Your Content<br />
             Re-layout for desktop vs. mobile<br/>
             Techniques for content<br />
@@ -100,7 +101,7 @@
       <section>
         <ul>
           <li>Your smartphone if you have one</li>
-          <li>Text editor - Sublime Text 2 is a good one</li>
+          <li>Text editor - <a href="http://www.sublimetext.com/2">Sublime Text 2</a> is a good one</li>
           <li>FTP program: Filezilla, Cyberduck, WinSCP etc.</li>
         </ul>
         <h2>Try out the FTP</h2>
@@ -119,20 +120,21 @@
       <header><h1>Why should we spend time designing for mobile devices?</h1></header>
     </div>
     <div class="slide" id="phone-population"> 
-      <header><h1>More mobile phone subscribers than world population</h1></header>
+      <header><h1>Worldwide mobile growth</h1></header>
       <section> 
         <p style='text-align:center;'>
         <br>
         <br>
         <img src='assets/beforeafter-of-pope-announcement-shows-incredible-proliferation-of-mobile-in-just-8-years.jpg' style='height:350px' />
         <ul>
-          <li> <bold>Mobile Phone Subscribers: </bold>6 Billion   v.s.  <bold>World Population: </bold>7 Billion</li>
-          <li> reference: NBC News</li>
+          <li>From 1990 to 2011, worldwide mobile phone subscriptions grew from 12.4 million to over 6 billion</li>
+          <li> <b>Mobile Phone Subscribers: </b>6 Billion   v.s.  <b>World Population: </b>7 Billion</li>
+          <li> reference: Wikipedia</li>
         </ul>
       </section> 
     </div>  
     <div class="slide" id="phone-more-than-partner"> 
-      <header><h1>We spend more time looking at our phone than our partner</h1></header>
+      <header><h1>We spend more time looking at our phone than at our partner</h1></header>
       <section> 
         <p style='text-align:center;'>
         <br>
@@ -157,7 +159,7 @@
       <header><h1>Desktop vs. Mobile</h1></header>
       <section> 
         <p style='text-align:center;'>
-        <img src='assets/desktop.jpg' style='height:300px' />&nbsp;&nbsp;&nbsp;v.s.&nbsp;&nbsp;&nbsp;<img src='assets/iphone.jpg' style='height:100px'/>
+        <img src='assets/desktop.jpg' style='height:300px' />&nbsp;&nbsp;&nbsp;v.s.&nbsp;&nbsp;&nbsp;<img src='assets/iphone.jpg' style='height:300px'/>
         <ul>
           <li>Device - how you use it, device capabilities</li>
           <li>Time - amount of time you have</li>
@@ -175,7 +177,7 @@
       <img src='assets/theloop_desktop.png' style='height:320px' />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='assets/theloop_mobile.png' style='height:320px' />
     </div>
       <ul>
-        <li><a href='http://www.theloop.ca'>www.theloop.ca</a> vs <a href='http://m.theloop.ca'>m.theloop.ca</a></li>
+        <li><a href='http://www.theloop.ca'>www.theloop.ca</a>&nbsp;&nbsp;vs&nbsp;&nbsp;<a href='http://m.theloop.ca'>m.theloop.ca</a></li>
         <li>What are the differences in user experience?</li>
         <li>What do you notice about navigation, content, and images?</li>
         <li>What about the flow of the website?</li>
@@ -299,10 +301,10 @@
       <section>
         <p>Let's practice uploading our website, and viewing it on the device!</p>
         <p>Get out the FTP client and connect with the information provided</p>
-        <p>Host: <strong>m.ladieslearningcode.com</strong></p>
-        <p>Username: <strong>llc</strong></p>
-        <p>Password: <strong>helloworld</strong></p>
-        <p><strong>Create a folder</strong></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Host: <strong>m.ladieslearningcode.com</strong></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Username: <strong>llc</strong></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Password: <strong>helloworld</strong></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Create a folder</strong></p>
       </section>
     </div>
     
@@ -383,8 +385,8 @@
       <header><h1>Determine what the user is using</h1></header>
       <section>
         <p>Can I make my website smarter?  Can it figure out what device the user is using?</p>
-        <p><a href='http://www.xtremelabs.com'>www.xtremelabs.com</a> - desktop vs mobile phone</p>
-        <img src='assets/xldesktop.png'  style='height:350px' /> <img src='assets/xlmobile.png' style='height:350px' />
+        <p><a href='http://www.goodlifefitness.com'>www.goodlifefitness.com</a> - desktop vs mobile phone</p>
+        <img src='assets/gldesktop.png'  style='height:350px' /> <img src='assets/glmobile.png' style='height:350px' />
       </section>
     </div>
     
@@ -414,7 +416,7 @@
       <header><h1>Exercise #3 - What device am I?</h1></header>
       <section>
         <p>We will open a page on both our laptops and the devices. The page will display different things based on the screen width.</p>
-        <p>For this exercise, we've also included code for tablets -- if you happen to have one here.</p>
+        <p>For this exercise we've also included code for tablets -- if you happen to have one here.</p>
         <br />
         <h2>Open http://m.ladieslearningcode.com/YOURFOLDER/check.html on your computer and your device(s).</h2>
         <br />
